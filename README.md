@@ -22,7 +22,7 @@
 
    ##clone this repository
 
-   git clone https://github.com/menglu21/TTC.git analysis
+   git clone https://github.com/efeyazgan/TTC.git analysis
 
    cd $CMSSW_BASE/src
 
