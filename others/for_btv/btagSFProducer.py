@@ -112,7 +112,7 @@ class btagSFProducer(Module):
                     'supported_wp': ["L", "M", "T", "shape_corr"]
                 },
                 'UL2018': {
-                    'inputFileName': "DeepCSV_106XUL18SF.csv",
+                    'inputFileName': "wp_deepCSV_106XUL18_v2.csv",
                     'measurement_types': {
                         0: "comb",  # b
                         1: "comb",  # c
@@ -168,7 +168,7 @@ class btagSFProducer(Module):
                     'supported_wp': ["L", "M", "T", "shape_corr"]
                 },
                 'UL2018': {
-                    'inputFileName': "DeepJet_106XUL18SF_V1p1.csv",
+                    'inputFileName': "wp_deepJET_106XUL18_v2.csv",
                     'measurement_types': {
                         0: "comb",  # b
                         1: "comb",  # c
