@@ -39,7 +39,7 @@
 
 ## submit jobs
 
-cd analysis/crab
+cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/crab
 
 using the configure files under 'configs', namely,
 
