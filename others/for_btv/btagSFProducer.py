@@ -138,7 +138,7 @@ class btagSFProducer(Module):
                         1: "comb",  # c
                         2: "incl"   # light
                     },
-                    'supported_wp': ["L", "M", "T"]
+                    'supported_wp': ["L", "M", "T","shape_corr"]
                 },
                 '2017': {
                     'inputFileName': "DeepFlavour_94XSF_V3_B_F.csv",
