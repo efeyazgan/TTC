@@ -47,7 +47,7 @@ crab submit -c configs/DoubleEGB_cfg.py
 
 rm crab_DoubleEG_B/inputs/*.tgz 
 
-You can also check `crab/auto_crab_example` to run crab jobs batchly and automatically.
+You can also check `crab/auto_crab_example` to run crab jobs automatically.
 
 ## corrections
 
@@ -63,7 +63,7 @@ puWeight_2017(): pileup reweight
 
 PrefCorr(): L1-prefiring correction
 
-muonIDISOSF2017(): muon ID/ISO SF
+muonIDISOSF2017(): muon ID/ISO SFe
 
 muonScaleRes2017(): muon momentum correction, i.e., the Rochester correction
 
