@@ -131,6 +131,15 @@ class btagSFProducer(Module):
                     },
                     'supported_wp': ["L", "M", "T", "shape_corr"]
                 },
+                'UL2016': {
+                    'inputFileName': "DeepJet_106XUL16postVFPSF_v2.csv",
+                    'measurement_types': {
+                        0: "comb",  # b
+                        1: "comb",  # c
+                        2: "incl"   # light
+                    },
+                    'supported_wp': ["L", "M", "T"]
+                },
                 '2017': {
                     'inputFileName': "DeepFlavour_94XSF_V3_B_F.csv",
                     'measurement_types': {
@@ -159,7 +168,7 @@ class btagSFProducer(Module):
                     'supported_wp': ["L", "M", "T", "shape_corr"]
                 },
                 'UL2018': {
-                    'inputFileName': "DeepJet_106XUL18SF.csv",
+                    'inputFileName': "DeepJet_106XUL18SF_V1p1.csv",
                     'measurement_types': {
                         0: "comb",  # b
                         1: "comb",  # c
