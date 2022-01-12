@@ -40,13 +40,17 @@
 
 ## submit jobs
 
+```bash
 cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/crab
+```
 
 using the configure files under 'configs_v9' (or configs_v8 for nanoaodv8), namely,
 
+```bash
 crab submit -c configs_v9/DoubleEGB_cfg.py
 
 rm crab_DoubleEG_B/inputs/*.tgz 
+```
 
 You can also check `crab/auto_crab_example` to run crab jobs automatically.
 
