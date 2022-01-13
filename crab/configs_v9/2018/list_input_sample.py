@@ -13,11 +13,12 @@ for filename in os.listdir(os.getcwd()):
           sample = sample[1].replace(" ","").replace("'","")
           head, sep, tail = sample.partition('UL')
           head = head+sep
+          head = head.replace("2017","2018")
           if "SIM" in sample:
               head = head.replace("UL","UL18*/NANOAODSIM\"")
           else:
-              head = head.replace("UL","UL18*/NANOAOD\"")
-          dasstr = f'dasgoclient -query=\"dataset={head} | grep UL18NanoAODv9'
+              head = head.replace("UL","UL2018*/NANOAOD\"")
+          dasstr = f'dasgoclient -query=\"dataset={head} | grep NanoAODv9'
 #          print(head)
 #          print(sample)
           print(dasstr)
