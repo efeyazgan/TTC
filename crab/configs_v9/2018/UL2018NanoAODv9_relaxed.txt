@@ -19,10 +19,7 @@ dasgoclient -query="dataset=/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunII
 /TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-PUForMUOVal_106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleEG/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleEG/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/DoubleEG/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/DoubleMuon/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
@@ -39,10 +36,9 @@ dasgoclient -query="dataset=/DoubleMuon/Run2018D-UL2018*/NANOAOD" | grep NanoAOD
 /DoubleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleMuon/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleMuon/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/DoubleMuon/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+/DoubleMuon/Run2018A-UL2018_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+/DoubleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/MET/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
@@ -57,10 +53,8 @@ dasgoclient -query="dataset=/MET/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9
 /MET/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/MET/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/MET/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/MET/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+/MET/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/MuonEG/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
@@ -75,10 +69,8 @@ dasgoclient -query="dataset=/MuonEG/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9
 /MuonEG/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/MuonEG/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/MuonEG/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/MuonEG/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+/MuonEG/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/QCD_Pt-120to170_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9
@@ -105,10 +97,7 @@ dasgoclient -query="dataset=/SingleElectron/Run2018C-UL2018*/NANOAOD" | grep Nan
 dasgoclient -query="dataset=/SingleElectron/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/SingleElectron/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/SingleElectron/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/SingleElectron/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/SingleMuon/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
@@ -126,10 +115,9 @@ dasgoclient -query="dataset=/SingleMuon/Run2018D-UL2018*/NANOAOD" | grep NanoAOD
 /SingleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/SingleMuon/Run2018E-UL2018*/NANOAOD" | grep NanoAODv9
-
--------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/SingleMuon/Run2018F-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/SingleMuon/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+/SingleMuon/Run2018A-UL2018_MiniAODv2_JMENanoAODv9-v2/NANOAOD
+/SingleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9
