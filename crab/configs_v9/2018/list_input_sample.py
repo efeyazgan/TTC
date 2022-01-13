@@ -17,7 +17,7 @@ for filename in os.listdir(os.getcwd()):
               head = head.replace("UL","UL18*/NANOAODSIM\"")
           else:
               head = head.replace("UL","UL18*/NANOAOD\"")
-          dasstr = f'dasgoclient -query=\"dataset={head} | grep Summer20UL18NanoAODv9'
+          dasstr = f'dasgoclient -query=\"dataset={head} | grep UL18NanoAODv9'
 #          print(head)
 #          print(sample)
           print(dasstr)
