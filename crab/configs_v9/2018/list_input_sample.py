@@ -14,10 +14,12 @@ for filename in os.listdir(os.getcwd()):
           head, sep, tail = sample.partition('UL')
           head = head+sep
           head = head.replace("2017","2018")
+          if "2018F" in head:
+              continue
           if "SIM" in sample:
               head = head.replace("UL","UL18*/NANOAODSIM\"")
           else:
-              head = head.replace("UL","UL2018*/NANOAOD\"")
+              head = head.replace("UL","UL2018*/NANOAOD\"").replace("2018E","2018A")
           dasstr = f'dasgoclient -query=\"dataset={head} | grep NanoAODv9'
 #          print(head)
 #          print(sample)
