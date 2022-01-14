@@ -19,6 +19,7 @@ for filename in os.listdir(os.getcwd()):
           if "SIM" in sample:
               head = head.replace("UL","UL18*/NANOAODSIM\"")
           else:
+              head = head.replace("DoubleEG","EGamma")
               head = head.replace("UL","UL2018*/NANOAOD\"").replace("2018E","2018A")
           dasstr = f'dasgoclient -query=\"dataset={head} | grep NanoAODv9'
 #          print(head)
