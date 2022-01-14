@@ -5,7 +5,9 @@ import sys
 import re
 
 import os
+#
 print("Read the files from 2017 configurations and convert them to search for 2018 datasets")
+#
 for filename in os.listdir(os.getcwd()):
 #   with open(os.path.join(os.getcwd(), filename), 'r') as f:
    if "cfg" in filename:
