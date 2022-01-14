@@ -37,6 +37,8 @@ for filename in os.listdir("../2017"):
               with open(f"../2017/{filename}", 'r') as f:
                   with open(os.path.join(os.getcwd(), filename2018), 'w') as fo: 
                       for line in f:
+                          line = line.replace("crab_script","crab_script_2018")
+                          line = line.replace("crab_script_data","crab_script_data_2018")
                           line = line.replace("DoubleEG","EGamma")
                           line = line.replace("Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt","Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt")
                           if "config.Data.inputDataset" not in line.strip("\n"):
@@ -45,3 +47,9 @@ for filename in os.listdir("../2017"):
                               fo.write(new_line)
                   fo.close()
               f.close()
+os.rename(r'DoubleEGE_cfg.py',r'EgammaA_cfg.py')
+os.rename(r'DoubleMuonE_cfg.py',r'DoubleMuonA_cfg.py')
+os.rename(r'MuonEGE_cfg.py',r'MuonEGA_cfg.py')
+os.rename(r'SingleMuonE_cfg.py',r'SingleMuonA_cfg.py')
+os.rename(r'METE_cfg.py',r'META_cfg.py')
+os.popen('rm SingleEG*_cfg.py DoubleEG*_cfg.py').read()
