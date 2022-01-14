@@ -16,7 +16,7 @@ config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_an
 config.JobType.sendPythonFolder = True
 
 config.section_("Data")
-config.Data.inputDataset = '/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM'
+config.Data.inputDataset = ''
 config.Data.inputDBS = 'global'
 config.Data.splitting = 'FileBased'
 #config.Data.splitting = 'EventAwareLumiBased'

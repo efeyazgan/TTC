@@ -3,26 +3,27 @@ from WMCore.Configuration import Configuration
 config = Configuration()
 
 config.section_("General")
-config.General.requestName = 'MET_E'
+config.General.requestName = 'TTTo2L2Nu'
 config.General.transferLogs = True
 
 config.section_("JobType")
 config.JobType.allowUndistributedCMSSW = True
 config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = 'PSet.py'
-config.JobType.scriptExe = 'crab_script_dataE.sh'
+config.JobType.scriptExe = 'crab_script.sh'
 # hadd nano will not be needed once nano tools are in cmssw
-config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_and_drop.txt','Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt']
+config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_and_drop.txt']
 config.JobType.sendPythonFolder = True
 
 config.section_("Data")
-#config.Data.inputDataset = '/MET/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD'
+#config.Data.inputDataset = '/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-FSUL18_FSUL18_106X_upgrade2018_realistic_v16_L1v1_ext1-v3/NANOAODSIM'
 config.Data.inputDBS = 'global'
-config.Data.splitting = 'LumiBased'
-config.Data.unitsPerJob = 80
-config.Data.lumiMask = 'Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt'
+config.Data.splitting = 'FileBased'
+#config.Data.splitting = 'EventAwareLumiBased'
+config.Data.unitsPerJob = 1
+config.Data.totalUnits = -1
 config.Data.publication = False
-config.Data.outputDatasetTag = 'MET_E'
+config.Data.outputDatasetTag = 'TTTo2L2Nu'
 
 config.section_("Site")
 config.Site.storageSite = "T3_CH_CERNBOX"
