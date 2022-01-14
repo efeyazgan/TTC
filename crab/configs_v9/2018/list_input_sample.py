@@ -5,11 +5,13 @@ import sys
 import re
 
 import os
-for filename in os.listdir(os.getcwd()):
+for filename in os.listdir("../2017"):
+#for filename in os.listdir(os.getcwd():
 #   with open(os.path.join(os.getcwd(), filename), 'r') as f:
    if "cfg" in filename:
-       sample = os.popen(f'grep config.Data.inputDataset {filename}').read().split("=")
+       sample = os.popen(f'grep config.Data.inputDataset ../2017/{filename}').read().split("=")
        if len(sample) > 1:
+          print(filename)
           sample = sample[1].replace(" ","").replace("'","")
           head, sep, tail = sample.partition('UL')
           head = head+sep
