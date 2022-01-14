@@ -1,7 +1,11 @@
-dasgoclient -query="dataset=/DoubleEG/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/EGamma/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
+/EGamma/Run2018B-UL2018_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+/EGamma/Run2018B-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleEG/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/EGamma/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9
+/EGamma/Run2018C-UL2018_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+/EGamma/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9
@@ -10,7 +14,9 @@ dasgoclient -query="dataset=/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL1
 /ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-20UL18JMENano_106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleEG/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/EGamma/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9
+/EGamma/Run2018D-UL2018_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+/EGamma/Run2018D-UL2018_MiniAODv2_NanoAODv9-v3/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9
@@ -19,7 +25,9 @@ dasgoclient -query="dataset=/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunII
 /TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-PUForMUOVal_106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM
 
 -------------------------------------------------------------------------------------
-dasgoclient -query="dataset=/DoubleEG/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+dasgoclient -query="dataset=/EGamma/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9
+/EGamma/Run2018A-UL2018_MiniAODv2_JMENanoAODv9-v1/NANOAOD
+/EGamma/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD
 
 -------------------------------------------------------------------------------------
 dasgoclient -query="dataset=/DoubleMuon/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9
