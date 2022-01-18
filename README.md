@@ -58,7 +58,7 @@ See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_outp
 To write to ExtraYukawa area, change in the crab configs:
 ```
 config.Site.storageSite = "T2_CH_CERN"
-\#config.Site.storageSite = "T3_CH_CERNBOX"
+#config.Site.storageSite = "T3_CH_CERNBOX"
 config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
 ```
 ## corrections
