@@ -4,6 +4,7 @@ import os
 import sys
 import re
 
+os.popen('voms-proxy-init').read()
 for filename in os.listdir("../2017"):
    print("-------------------------------------------------------------------------------------")
    if "cfg" in filename:

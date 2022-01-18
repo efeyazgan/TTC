@@ -54,18 +54,20 @@ rm crab_DoubleEG_B/inputs/*.tgz
 
 You can also check `crab/auto_crab_example` to run crab jobs automatically.
 
-Note that the output will be your user cernbox since 
-```
-config.Site.storageSite = "T3_CH_CERNBOX"
-```
-See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
 
-To write to ExtraYukawa area, change in the crab configs:
+Note that the output will be /store/group/phys_top/ExtraYukawa/test/ because:
 ```
 config.Site.storageSite = "T2_CH_CERN"
 #config.Site.storageSite = "T3_CH_CERNBOX"
 config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
 ```
+
+To write to your user cernbox area:
+```
+config.Site.storageSite = "T3_CH_CERNBOX"
+```
+See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
+
 ## corrections
 
 the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py, 
