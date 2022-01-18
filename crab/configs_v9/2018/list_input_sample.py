@@ -4,11 +4,13 @@ import os
 import sys
 import re
 
-os.popen('voms-proxy-init').read()
+print("WARNING! don't forget to do voms-proxy-init before running the script.")
 for filename in os.listdir("../2017"):
    print("-------------------------------------------------------------------------------------")
    if "cfg" in filename:
        sample = os.popen(f'grep config.Data.inputDataset ../2017/{filename}').read().split("=")
+       data_flag = int(os.popen(f'grep -c data ../2017/{filename}').read()) 
+       print("data flag = "+str(data_flag))
        if len(sample) > 1:
           era = filename.split("_cfg")[0][-1]
           sample_and_era = filename.split("_cfg")[0].replace(filename.split("_cfg")[0][-1],"_"+filename.split("_cfg")[0][-1])
@@ -30,6 +32,7 @@ for filename in os.listdir("../2017"):
           sampleline = os.popen(dasstr).read().rstrip().splitlines()
           print(sampleline)       
           filename2018 = filename
+          print("filename2018 "+filename2018)
           for x in range(len(sampleline)):
               new_line = sample[0]+"= '"+sampleline[x]+"'\n" 
               print("new_line   "+new_line)
@@ -39,8 +42,9 @@ for filename in os.listdir("../2017"):
               with open(f"../2017/{filename}", 'r') as f:
                   with open(os.path.join(os.getcwd(), filename2018), 'w') as fo: 
                       for line in f:
-                          line = line.replace("crab_script","crab_script_2018")
                           line = line.replace("crab_script_data","crab_script_data_2018")
+                          if data_flag == 0:
+                              line = line.replace("crab_script","crab_script_2018")
                           line = line.replace("DoubleEG","EGamma")
                           line = line.replace("Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt","Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt")
                           line = line.replace("T3_CH_CERNBOX","T2_CH_CERN")
@@ -59,4 +63,4 @@ os.rename(r'DoubleMuonE_cfg.py',r'DoubleMuonA_cfg.py')
 os.rename(r'MuonEGE_cfg.py',r'MuonEGA_cfg.py')
 os.rename(r'SingleMuonE_cfg.py',r'SingleMuonA_cfg.py')
 os.rename(r'METE_cfg.py',r'META_cfg.py')
-os.popen('rm SingleEG*_cfg.py').read()
+#os.popen('rm SingleEG*_cfg.py').read()
