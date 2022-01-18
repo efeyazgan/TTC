@@ -31,6 +31,9 @@ rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/Fall17_*.tgz
 rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/Spring16_*.tgz
 rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/Summer16_*.tgz
 rm -r $WORKING_PATH/data/roccor*
+rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/crab/configs_v9/2018/UL2018NanoAODv9_relaxed.txt
+rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/crab/configs_v9/2018/UL2018NanoAODv9.txt
+rm -r $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/crab/configs_v9/2018/list_input_sample.py
 
 echo redo scram
 cd $CMSSW_BASE/src
