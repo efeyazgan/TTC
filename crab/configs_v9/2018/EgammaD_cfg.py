@@ -10,9 +10,9 @@ config.section_("JobType")
 config.JobType.allowUndistributedCMSSW = True
 config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = 'PSet.py'
-config.JobType.scriptExe = 'crab_script_dataD.sh'
+config.JobType.scriptExe = 'crab_script_2018_dataD.sh'
 # hadd nano will not be needed once nano tools are in cmssw
-config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_and_drop.txt','Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt']
+config.JobType.inputFiles = ['crab_script_2018.py', '../scripts/haddnano.py','keep_and_drop.txt','Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt']
 config.JobType.sendPythonFolder = True
 
 config.section_("Data")
@@ -26,4 +26,5 @@ config.Data.outputDatasetTag = 'EGamma_D'
 
 config.section_("Site")
 #config.Site.storageSite = "T2_CH_CERN"
-config.Site.storageSite = "T3_CH_CERNBOX"
+config.Site.storageSite = "T2_CH_CERN"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
