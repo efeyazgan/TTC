@@ -43,7 +43,7 @@ for filename in os.listdir("../2017"):
                   with open(os.path.join(os.getcwd(), filename2018), 'w') as fo: 
                       for line in f:
                           line = line.replace("crab_script_data","crab_script_data_2018")
-                          if data_flag == 0:
+                          if data_flag == 0 and "config.JobType.inputFiles" not in line:
                               line = line.replace("crab_script","crab_script_2018")
                           line = line.replace("DoubleEG","EGamma")
                           line = line.replace("Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt","Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt")
