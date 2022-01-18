@@ -26,4 +26,5 @@ config.Data.publication = False
 config.Data.outputDatasetTag = 'ttZtoNuNu'
 
 config.section_("Site")
-config.Site.storageSite = "T3_CH_CERNBOX"
+config.Site.storageSite = "T2_CH_CERN"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
