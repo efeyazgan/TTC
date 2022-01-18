@@ -54,6 +54,12 @@ rm crab_DoubleEG_B/inputs/*.tgz
 
 You can also check `crab/auto_crab_example` to run crab jobs automatically.
 
+Note that the output will be your user cernbox since 
+```
+config.Site.storageSite = "T3_CH_CERNBOX"
+```
+See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
+
 ## corrections
 
 the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py, 
