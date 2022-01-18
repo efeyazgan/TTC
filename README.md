@@ -60,6 +60,12 @@ config.Site.storageSite = "T3_CH_CERNBOX"
 ```
 See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
 
+To write to ExtraYukawa area, change in the crab configs:
+```
+config.Site.storageSite = "T2_CH_CERN"
+#config.Site.storageSite = "T3_CH_CERNBOX"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
+```
 ## corrections
 
 the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py, 
