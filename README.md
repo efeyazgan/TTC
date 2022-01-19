@@ -21,9 +21,9 @@
    ```bash
    cd python/postprocessing
 
-   ##clone this repository
+   ##clone the branch lep_mvaID of this repository 
 
-   git clone https://github.com/efeyazgan/TTC.git analysis
+   git clone -b lep_mvaID git@github.com:efeyazgan/TTC.git analysis
 
    cd $CMSSW_BASE/src
 
