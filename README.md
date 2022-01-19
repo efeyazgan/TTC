@@ -2,7 +2,7 @@
 
 ## Steps for setup:
 
-1. release CMSSW_10_6_27
+1. release CMSSW_10_6_29
 2. Set up NanoAOD tools
    ```bash
    cd $CMSSW_BASE/src
@@ -22,7 +22,7 @@
 
    ##clone this repository
 
-   git clone https://github.com/menglu21/TTC.git analysis
+   git clone https://github.com/efeyazgan/TTC.git analysis
 
    cd $CMSSW_BASE/src
 
@@ -47,7 +47,21 @@ crab submit -c configs/DoubleEGB_cfg.py
 
 rm crab_DoubleEG_B/inputs/*.tgz 
 
-You can also check `crab/auto_crab_example` to run crab jobs batchly and automatically.
+You can also check `crab/auto_crab_example` to run crab jobs automatically.
+
+
+Note that the output will be /store/group/phys_top/ExtraYukawa/test/ because:
+```
+config.Site.storageSite = "T2_CH_CERN"
+#config.Site.storageSite = "T3_CH_CERNBOX"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
+```
+
+To write to your user cernbox area:
+```
+config.Site.storageSite = "T3_CH_CERNBOX"
+```
+See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
 
 ## corrections
 
@@ -63,7 +77,7 @@ puWeight_2017(): pileup reweight
 
 PrefCorr(): L1-prefiring correction
 
-muonIDISOSF2017(): muon ID/ISO SF
+muonIDISOSF2017(): muon ID/ISO SFe
 
 muonScaleRes2017(): muon momentum correction, i.e., the Rochester correction
 
