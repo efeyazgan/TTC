@@ -1,0 +1,297 @@
+-------------------------------------------------------------------------------------
+DoubleEG_B
+dasgoclient -query="dataset=/EGamma/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/EGamma/Run2018B-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleEG_C
+dasgoclient -query="dataset=/EGamma/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/EGamma/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_DoubleEG_D
+dasgoclient -query="dataset=/EGamma/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/EGamma/Run2018D-UL2018_MiniAODv2_NanoAODv9-v3/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Double_EG_E
+dasgoclient -query="dataset=/EGamma/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/EGamma/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleEG_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleMuon_B
+dasgoclient -query="dataset=/DoubleMuon/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/DoubleMuon/Run2018B-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleMuon_C
+dasgoclient -query="dataset=/DoubleMuon/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/DoubleMuon/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_DoubleMuon_D
+dasgoclient -query="dataset=/DoubleMuon/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/DoubleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleMuon_E
+dasgoclient -query="dataset=/DoubleMuon/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/DoubleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+DoubleMuon_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MET_B
+dasgoclient -query="dataset=/MET/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MET/Run2018B-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MET_C
+dasgoclient -query="dataset=/MET/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MET/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MET_D
+dasgoclient -query="dataset=/MET/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MET/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+M_ET_E
+dasgoclient -query="dataset=/MET/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MET/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MET_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MuonEG_B
+dasgoclient -query="dataset=/MuonEG/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MuonEG/Run2018B-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MuonEG_C
+dasgoclient -query="dataset=/MuonEG/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MuonEG/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MuonEG_D
+dasgoclient -query="dataset=/MuonEG/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MuonEG/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Muon_EG_E
+dasgoclient -query="dataset=/MuonEG/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/MuonEG/Run2018A-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+MuonEG_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+QCD_12_0to17_0
+dasgoclient -query="dataset=/QCD_Pt-120to170_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+QCD_17_0to3_0_0
+dasgoclient -query="dataset=/QCD_Pt-170to300_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+QCD_300toin_f
+dasgoclient -query="dataset=/QCD_Pt-300toInf_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+QCD_5_0to8_0
+dasgoclient -query="dataset=/QCD_Pt-50to80_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+QCD_8_0to12_0
+dasgoclient -query="dataset=/QCD_Pt-80to120_EMEnriched_TuneCP5_13TeV_pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleEG_B
+dasgoclient -query="dataset=/SingleElectron/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleEG_C
+dasgoclient -query="dataset=/SingleElectron/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleEG_D
+dasgoclient -query="dataset=/SingleElectron/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Single_EG_E
+dasgoclient -query="dataset=/SingleElectron/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleEG_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleMuon_B
+dasgoclient -query="dataset=/SingleMuon/Run2018B-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/SingleMuon/Run2018B-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleMuon_C
+dasgoclient -query="dataset=/SingleMuon/Run2018C-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/SingleMuon/Run2018C-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleMuon_D
+dasgoclient -query="dataset=/SingleMuon/Run2018D-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/SingleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleMuon_E
+dasgoclient -query="dataset=/SingleMuon/Run2018A-UL2018*/NANOAOD" | grep NanoAODv9 | grep -v JMENano
+['/SingleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+SingleMuon_F
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+TTto1_L
+dasgoclient -query="dataset=/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-PUForMUOVal_106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM']
+TTto1L_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+TTto2_L
+dasgoclient -query="dataset=/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-FSUL18_FSUL18_106X_upgrade2018_realistic_v16_L1v1_ext1-v3/NANOAODSIM']
+TTto2L_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+d_y
+dasgoclient -query="dataset=/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM']
+dy_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+t_W
+dasgoclient -query="dataset=/ST_tW_top_5f_NoFullyHadronicDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+t_sc_h
+dasgoclient -query="dataset=/ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+t_tc_h
+dasgoclient -query="dataset=/ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+tbar_W
+dasgoclient -query="dataset=/ST_tW_antitop_5f_DS_NoFullyHadronicDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+tbar_tc_h
+dasgoclient -query="dataset=/ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+tt_H
+dasgoclient -query="dataset=/ttHToZG_ZToLL_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer19UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+ttWTo_Q_Q
+dasgoclient -query="dataset=/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+tt_W_W
+dasgoclient -query="dataset=/TTWW_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTWW_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+ttW_Z
+dasgoclient -query="dataset=/TTWZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTWZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+tt_W
+dasgoclient -query="dataset=/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+ttZToN_uN_u
+dasgoclient -query="dataset=/TTZToNuNu_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENanorm: cannot remove 'SingleEG*_cfg.py': No such file or directory
+
+['/TTZToNuNu_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+ttZTo_Q_Q
+dasgoclient -query="dataset=/TTZToQQ_Dilept_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTZToQQ_Dilept_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+tt_Z_Z
+dasgoclient -query="dataset=/TTZZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTZZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+tt_Z
+dasgoclient -query="dataset=/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+tz_q
+dasgoclient -query="dataset=/tZq_ll_4f_ckm_NLO_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/tZq_ll_4f_ckm_NLO_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+wje_t
+dasgoclient -query="dataset=/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_w_w
+dasgoclient -query="dataset=/WW_TuneCP5_13TeV-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WW_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_w_w_w
+dasgoclient -query="dataset=/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/WWW_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM']
+www_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+ww_z
+dasgoclient -query="dataset=/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM']
+wwz_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+w_z
+dasgoclient -query="dataset=/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+w_z_z
+dasgoclient -query="dataset=/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM']
+wzz_ext1_cfg.py
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_z_z
+dasgoclient -query="dataset=/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+[]
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+_z_z_z
+dasgoclient -query="dataset=/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18*/NANOAODSIM" | grep NanoAODv9 | grep -v JMENano
+['/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM', '/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM']
+zzz_ext1_cfg.py
+-------------------------------------------------------------------------------------
