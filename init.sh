@@ -2,14 +2,16 @@
 
 # design to substitute some outdated files for NanoAOD-tools
 # Remove some outdated files to save IO for crab jobs
-echo Initing
+echo Initiation
 
 export WORKING_PATH="$CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/"
 echo $WORKING_PATH
 
 echo Updating pileup
 cp $WORKING_PATH/analysis/others/for_pileup/mcPileupUL2017.root $WORKING_PATH/data/pileup/
+cp $WORKING_PATH/analysis/others/for_pileup/mcPileupUL2018.root $WORKING_PATH/data/pileup/
 cp $WORKING_PATH/analysis/others/for_pileup/PileupHistogram-goldenJSON-13tev-UL2017-99bins_withVar.root $WORKING_PATH/data/pileup/
+cp $WORKING_PATH/analysis/others/for_pileup/PileupHistogram-goldenJSON-13tev-UL2018-99bins_withVar.root $WORKING_PATH/data/pileup/
 cp $WORKING_PATH/analysis/others/for_pileup/puWeightProducer.py $WORKING_PATH/modules/common/
 
 echo Updating prefiring correction
