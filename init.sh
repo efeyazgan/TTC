@@ -40,3 +40,4 @@ cd $CMSSW_BASE/src
 scram b
 
 echo "Initiation Done"
+cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis
