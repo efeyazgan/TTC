@@ -39,4 +39,4 @@ echo redo scram
 cd $CMSSW_BASE/src
 scram b
 
-echo "Initing Done"
+echo "Initiation Done"
