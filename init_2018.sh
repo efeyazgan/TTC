@@ -15,8 +15,8 @@ cp -v $WORKING_PATH/analysis/others/for_pileup/PileupHistogram-goldenJSON-13tev-
 cp -v $WORKING_PATH/analysis/others/for_pileup/puWeightProducer.py $WORKING_PATH/modules/common/
 
 #echo Updating prefiring correction
-#cp $WORKING_PATH/analysis/others/for_prefiring/*.root $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/prefire_maps/
-#cp $WORKING_PATH/analysis/others/for_prefiring/PrefireCorr.py $WORKING_PATH/modules/common/
+cp $WORKING_PATH/analysis/others/for_prefiring/*.root $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/prefire_maps/
+cp $WORKING_PATH/analysis/others/for_prefiring/PrefireCorr.py $WORKING_PATH/modules/common/
 
 echo Updating JME correction
 cp -v $WORKING_PATH/analysis/others/for_jme/*UL18*.tar.gz $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/
