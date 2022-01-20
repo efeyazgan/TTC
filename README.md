@@ -29,13 +29,11 @@
 
 ## submit jobs
 
+using the configure files under 'configs', 
 ```
 cd crab
-```
-using the configure files under 'configs', namely,
-```
-crab submit -c configs/DoubleEGB_cfg.py
-rm crab_DoubleEG_B/inputs/*.tgz 
+crab submit -c configs/EgammaB_cfg.py
+rm crab_Egamma_B/inputs/*.tgz 
 ```
 
 You can also check `crab/auto_crab_example` to run crab jobs automatically.
