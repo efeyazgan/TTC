@@ -24,8 +24,7 @@
 3. Substitute some outdated files with `init.sh`
    ```bash
    cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis
-
-   source init.sh
+   source init_2018.sh
    ```
 
 ## submit jobs
