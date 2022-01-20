@@ -19,7 +19,7 @@ cp $WORKING_PATH/analysis/others/for_pileup/puWeightProducer.py $WORKING_PATH/mo
 #cp $WORKING_PATH/analysis/others/for_prefiring/PrefireCorr.py $WORKING_PATH/modules/common/
 
 echo Updating JME correction
-cp $WORKING_PATH/analysis/others/for_jme/*UL18*.tgz $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/
+cp $WORKING_PATH/analysis/others/for_jme/*UL18*.tar.gz $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/jme/
 cp $WORKING_PATH/analysis/others/for_jme/jetmetHelperRun2.py $WORKING_PATH/modules/jme
 
 echo Updating BJet related
