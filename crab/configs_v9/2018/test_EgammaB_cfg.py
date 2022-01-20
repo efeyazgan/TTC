@@ -3,7 +3,7 @@ from WMCore.Configuration import Configuration
 config = Configuration()
 
 config.section_("General")
-config.General.requestName = 'EGamma_B'
+config.General.requestName = 'test_EGamma_B'
 config.General.transferLogs = True
 
 config.section_("JobType")
@@ -19,10 +19,14 @@ config.section_("Data")
 config.Data.inputDataset = '/EGamma/Run2018B-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD'
 config.Data.inputDBS = 'global'
 config.Data.splitting = 'LumiBased'
-config.Data.unitsPerJob = 80
+#config.Data.unitsPerJob = 80
+########
+config.Data.unitsPerJob = 1
+config.Data.totalUnits = 1
+#######
 config.Data.lumiMask = 'Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt'
 config.Data.publication = False
-config.Data.outputDatasetTag = 'EGamma_B'
+config.Data.outputDatasetTag = 'test_EGamma_B'
 
 config.section_("Site")
 #config.Site.storageSite = "T2_CH_CERN"

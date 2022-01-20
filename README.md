@@ -28,11 +28,16 @@
    ```
 
 ## submit jobs
-
-using the configure files under 'configs', 
+using the configure files under 'configs', to make a test:
 ```
 cd crab
-crab submit -c configs/EgammaB_cfg.py
+crab submit -c configs/2018/test_EgammaB_cfg.py
+rm crab_Egamma_B/inputs/*.tgz
+```
+and then move on to real production:
+```
+cd crab
+crab submit -c configs/2018/EgammaB_cfg.py
 rm crab_Egamma_B/inputs/*.tgz 
 ```
 
