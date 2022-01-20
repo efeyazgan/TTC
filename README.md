@@ -7,27 +7,18 @@
    ```bash
    cmsrel CMSSW_10_6_29
    cd CMSSW_10_6_29/src
-
    git clone https://github.com/cms-nanoAOD/nanoAOD-tools.git PhysicsTools/NanoAODTools
-
    cd PhysicsTools/NanoAODTools
-
    cmsenv
-
-   scram b
+   scram b -j8
    ```
 
 3. Set up TTC codes
    ```bash
    cd python/postprocessing
-
-   ##clone the branch lep_mvaID of this repository 
-
    git clone -b lep_mvaID git@github.com:efeyazgan/TTC.git analysis
-
    cd $CMSSW_BASE/src
-
-   scram b
+   scram b -j8
    ```
     Noticed that the `crab_help.py` is written in python3, hence the `scram b` in CMSSW would leave some error message. Since this crab helper normally would not be included by other codes, you can ignore these errors.
 
@@ -40,16 +31,16 @@
 
 ## submit jobs
 
-cd analysis/crab
-
+```
+cd crab
+```
 using the configure files under 'configs', namely,
-
+```
 crab submit -c configs/DoubleEGB_cfg.py
-
 rm crab_DoubleEG_B/inputs/*.tgz 
+```
 
 You can also check `crab/auto_crab_example` to run crab jobs automatically.
-
 
 Note that the output will be /store/group/phys_top/ExtraYukawa/test/ because:
 ```
@@ -66,34 +57,24 @@ See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_outp
 
 ## corrections
 
-the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py, 
-
+the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py.
 N.B. the egamma correction is already applied default in NanoAOD
 
 #### for MC:
 
 countHistogramsModule(): store the opsitive and negative events number for weight apply
-
 puWeight_2017(): pileup reweight
-
 PrefCorr(): L1-prefiring correction
-
 muonIDISOSF2017(): muon ID/ISO SFe
-
 muonScaleRes2017(): muon momentum correction, i.e., the Rochester correction
-
 eleRECOSF2017(): electron RECO SF
-
 eleIDSF2017(): electron IS SF
-
 jmeCorrections_UL2017MC(): JetMET correction
-
 btagSF2017UL(): b tag SF
 
 #### for Data:
 
 muonScaleRes2017(): muon momentum correction, i.e., the Rochester correction
-
 jmeCorrections_UL2017*(): JetMET correction
 
 ### 1. pileup reweight 
@@ -111,7 +92,6 @@ move "mcPileupUL2017.root" and "PileupHistogram-goldenJSON-13tev-UL2017-99bins_w
 
 ### 2. prefiring correction 
 (needed files are in others/for_prefiring, can be used directly)
-
 details are here: Pre-firing: https://twiki.cern.ch/twiki/bin/viewauth/CMS/L1ECALPrefiringWeightRecipe#Accessing_the_UL2017_maps, in order to use the current NanoAOD module, extract separate rootfiles from https://github.com/cms-data/PhysicsTools-PatUtils/raw/master/L1PrefiringMaps.root
 
 #### data & MC
