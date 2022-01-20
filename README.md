@@ -2,8 +2,7 @@
 
 ## Steps for setup:
 
-1. release CMSSW_10_6_29
-2. Set up NanoAOD tools
+1. Set up NanoAOD tools
    ```bash
    cmsrel CMSSW_10_6_29
    cd CMSSW_10_6_29/src
@@ -13,7 +12,7 @@
    scram b -j8
    ```
 
-3. Set up TTC codes
+2. Set up TTC codes
    ```bash
    cd python/postprocessing
    git clone -b lep_mvaID git@github.com:efeyazgan/TTC.git analysis
@@ -22,7 +21,7 @@
    ```
     Noticed that the `crab_help.py` is written in python3, hence the `scram b` in CMSSW would leave some error message. Since this crab helper normally would not be included by other codes, you can ignore these errors.
 
-4. Substitute some outdated files with `init.sh`
+3. Substitute some outdated files with `init.sh`
    ```bash
    cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis
 
