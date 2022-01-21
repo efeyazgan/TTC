@@ -35,7 +35,13 @@ cd crab
 crab submit -c configs/2018/test_EgammaB_cfg.py
 rm crab_Egamma_B/inputs/*.tgz
 ```
-and then move on to real production:
+Or for a local test do:
+```
+cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/test 
+python localrun.py -m -i /eos/cms/store/group/phys_top/ExtraYukawa/input_for_tests/DY_UL18NanoAODv9_M-50_MLM.root --year 2018 -o $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis/test -n 100
+```
+
+and to submit all jobs:
 ```
 cd crab
 crab submit -c configs/2018/EgammaB_cfg.py

@@ -455,7 +455,7 @@ class TTCProducer(Module):
     for itau in range(0, event.nTau):
       tau_v4_temp.SetPtEtaPhiM(taus[itau].pt, taus[itau].eta, taus[itau].phi, taus[itau].mass)
       pass_tau_lep_Dr=1
-      if taus[itau].pt>20 and abs(taus[itau].eta)<2.3 and taus[itau].idDecayModeNewDMs and taus[itau].idDeepTau2017v2p1VSe>=4 and taus[itau].idDeepTau2017v2p1VSjet>=4 and taus[itau].idDeepTau2017v2p1VSmu>=1:
+      if taus[itau].pt>20 and abs(taus[itau].eta)<2.3 and taus[itau].idDecayModeOldDMs and taus[itau].idDeepTau2017v2p1VSe>=4 and taus[itau].idDeepTau2017v2p1VSjet>=4 and taus[itau].idDeepTau2017v2p1VSmu>=1:
 	for ilep in range(0,len(tightLeptons)):
           if tau_v4_temp.DeltaR(tightLeptons[ilep])<0.4:pass_tau_lep_Dr=0
 	for ilep in range(0,len(fakeableLeptons)):
