@@ -63,6 +63,11 @@ config.Site.storageSite = "T3_CH_CERNBOX"
 ```
 See https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3FAQ#Can_I_send_CRAB_output_to_CERNBO
 
+To add the outputs:
+```
+python ../scripts/haddnano.py combined.root /eos/cms/store/group/phys_top/ExtraYukawa/test/.../*.root
+```
+
 ## corrections
 
 the modules (most of them are corrections) used can be seen from analysis/crab/crab_script.py.
