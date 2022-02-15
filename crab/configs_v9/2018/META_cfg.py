@@ -10,7 +10,7 @@ config.section_("JobType")
 config.JobType.allowUndistributedCMSSW = True
 config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = 'PSet.py'
-config.JobType.scriptExe = 'crab_script_data_2018E.sh'
+config.JobType.scriptExe = 'crab_script_data_2018A.sh'
 # hadd nano will not be needed once nano tools are in cmssw
 config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_and_drop.txt','Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt']
 config.JobType.sendPythonFolder = True
