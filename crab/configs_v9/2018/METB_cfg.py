@@ -26,4 +26,4 @@ config.Data.outputDatasetTag = 'MET_B'
 
 config.section_("Site")
 config.Site.storageSite = "T2_CH_CERN"
-config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/2018/"

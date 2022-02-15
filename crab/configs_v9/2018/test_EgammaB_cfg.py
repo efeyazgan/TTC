@@ -3,7 +3,7 @@ from WMCore.Configuration import Configuration
 config = Configuration()
 
 config.section_("General")
-config.General.requestName = 'test_EGamma_B'
+config.General.requestName = '2018_EGamma_B'
 config.General.transferLogs = True
 
 config.section_("JobType")
@@ -26,9 +26,9 @@ config.Data.totalUnits = 1
 #######
 config.Data.lumiMask = 'Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt'
 config.Data.publication = False
-config.Data.outputDatasetTag = 'test_EGamma_B'
+config.Data.outputDatasetTag = '2018_EGamma_B'
 
 config.section_("Site")
 #config.Site.storageSite = "T2_CH_CERN"
 config.Site.storageSite = "T2_CH_CERN"
-config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/2018/"

@@ -16,7 +16,7 @@ config.JobType.inputFiles = ['crab_script.py', '../scripts/haddnano.py','keep_an
 config.JobType.sendPythonFolder = True
 
 config.section_("Data")
-#config.Data.inputDataset = '/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-FSUL18_FSUL18_106X_upgrade2018_realistic_v16_L1v1_ext1-v3/NANOAODSIM'
+config.Data.inputDataset = '/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-FSUL18_FSUL18_106X_upgrade2018_realistic_v16_L1v1_ext1-v3/NANOAODSIM'
 config.Data.inputDBS = 'global'
 config.Data.splitting = 'FileBased'
 #config.Data.splitting = 'EventAwareLumiBased'
@@ -27,4 +27,4 @@ config.Data.outputDatasetTag = 'TTTo2L2Nu'
 
 config.section_("Site")
 config.Site.storageSite = "T2_CH_CERN"
-config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/test/"
+config.Data.outLFNDirBase = "/store/group/phys_top/ExtraYukawa/2018/"
