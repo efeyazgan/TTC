@@ -159,7 +159,7 @@ class btagSFProducer(Module):
                     'supported_wp': ["L", "M", "T", "shape_corr"]
                 },
                 'UL2018': {
-                    'inputFileName': "DeepJet_106XUL18SF_V2.csv", # previous version
+                    'inputFileName': "DeepJet_106XUL18SF_V2.csv", # previous version DeepJet_106XUL18SF.csv 
                     'measurement_types': {
                         0: "comb",  # b
                         1: "comb",  # c
