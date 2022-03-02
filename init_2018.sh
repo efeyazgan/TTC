@@ -24,7 +24,7 @@ cp -v $WORKING_PATH/analysis/others/for_jme/jetmetHelperRun2.py $WORKING_PATH/mo
 
 echo Updating BJet related
 cp -v $WORKING_PATH/analysis/others/for_btv/btagSFProducer.py $WORKING_PATH/modules/btv
-cp -v $WORKING_PATH/analysis/others/for_btv/*UL18*.csv $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/btagSF/
+cp -v $WORKING_PATH/analysis/others/for_btv/DeepJet_106XUL18SF_V2.csv $CMSSW_BASE/src/PhysicsTools/NanoAODTools/data/btagSF/
 
 echo Cleaning
 rm -rv $WORKING_PATH/analysis/others/
